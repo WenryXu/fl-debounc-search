@@ -23,7 +23,8 @@
     "babel-loader": "^9.1.3"
   },
   "scripts": {
-    "build": "npx webpack"
+    "build": "npx webpack",
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
