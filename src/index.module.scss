@@ -1,0 +1,47 @@
+.mask {
+    height: 32px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+  }
+  
+  .inputContainer {
+    flex: 1;
+    --colorNeutralForeground2BrandHover: #424242;
+    --colorNeutralForeground2BrandPressed: #424242;
+    --colorNeutralStrokeAccessibleHover: #d1d1d1;
+    --colorNeutralStrokeAccessiblePressed: #d1d1d1;
+  }
+  
+  .historyContainer {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 20;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 4px 12px 12px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px, rgba(0, 0, 0, 0.12) 0px 0px 2px;
+    overflow: auto;
+    color: #424242;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
